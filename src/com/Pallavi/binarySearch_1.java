@@ -14,7 +14,7 @@ public class binarySearch_1 {
         System.out.println("Enter the length for user input Array");
         int arrLen = sc.nextInt();
         int[] array = new int[arrLen];
-        System.out.println("Enter input as ascending order in the Array");
+        System.out.println("Enter input as sorted ascending order in the Array");
         for(int i=0; i<arrLen; i++){
             array[i]=sc.nextInt();
         }
