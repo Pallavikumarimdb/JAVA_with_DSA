@@ -1,6 +1,5 @@
 package com.BinarySearch;
 
-
 import java.util.Scanner;
 
 // If in the given question array is sorted then try to apply Binary Search
@@ -29,6 +28,11 @@ public static void main(String[] args) {
     int start = 0;
     int end = arr.length-1;
     boolean isAsc = arr[start]<arr[end];
+
+    // If the target is greater than the greatest number in the  array
+    if(target > arr[arr.length - 1]){
+        return -1;
+    }
 
     while(start <= end){
 
@@ -78,3 +82,6 @@ public static void main(String[] args) {
   }
 
 }
+
+
+//Time comlexity logN
