@@ -15,4 +15,22 @@ public class PrintNoByRecursion {
         nTo1(n-1);
 
     }
+
+
+    public static void anoConc(int n){
+
+        if(n==0){
+            return;
+        }
+
+        System.out.println(n);
+        // Here "n" will first decrement then pass to the function
+        anoConc(--n);
+
+        //If you want to write cnoConc(n--) it will go for infinite loop because every time "n" will first pass the value then
+        // decrement and never decrease value from n
+        // anoConc(n--) ❌
+
+
+    }
 }
