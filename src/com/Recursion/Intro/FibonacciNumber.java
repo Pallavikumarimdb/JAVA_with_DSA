@@ -26,6 +26,8 @@ public class FibonacciNumber {
             return n;
         }
         else{
+            // This is not tail recursion call because of two extra step in this, it is not last fn call
+            // first fibonacci(n-1) will give answer then fibonacci(n-2) will give answer the at last fibonacci(n-1)+fibonacci(n-2) will give answer
             return fibonacci(n-1)+fibonacci(n-2);
         }
 
