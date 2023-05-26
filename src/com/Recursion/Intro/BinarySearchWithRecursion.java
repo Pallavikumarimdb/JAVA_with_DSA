@@ -7,6 +7,12 @@ public class BinarySearchWithRecursion {
         System.out.println(binarySearch(arr, 7, 0, arr.length-1));
     }
 
+    // Complexity => O(1)
+    // Dividing into two half
+    // Recurrence Relation : F(O) = O(1) + F(N/2)
+    //                         (Comparison) + (Dividing Array in two half)
+
+    // Binary Search :  It is the example of Divide & Conquer recurrence relation (Reduced by a factor)
     public static int binarySearch(int[] arr, int target, int s, int e){
 
         if(s>e){
