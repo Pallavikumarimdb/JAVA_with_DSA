@@ -31,8 +31,8 @@ public class SelectionSort {
     }
 
     public static void swap(int[] arr, int max, int compare){
-        int temp=arr[max];
-        arr[max]=arr[compare];
-        arr[compare]=temp;
+            int temp=arr[max];
+            arr[max]=arr[compare];
+            arr[compare]=temp;
     }
 }

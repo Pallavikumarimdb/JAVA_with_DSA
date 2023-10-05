@@ -30,6 +30,7 @@ public class BubbleSort {
                     b=true;
                 }
             }
+            // If no swap is occuring in one complete round for 'j' then array is alredy sorted
             if(!b){
                 break;
             }
