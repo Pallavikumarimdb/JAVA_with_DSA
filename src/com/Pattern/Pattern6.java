@@ -2,10 +2,10 @@ package com.Pattern;
 
 // QUESTION
 //        *
-//        **
-//        ***
-//        ****
-//        *****
+//       **
+//      ***
+//     ****
+//    *****
 public class Pattern6 {
     public static void main(String[] args) {
         pattern(5);
