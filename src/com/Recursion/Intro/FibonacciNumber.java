@@ -1,6 +1,6 @@
 package com.Recursion.Intro;
 // step 1:
-// when you write recursio in terms of formula or when we write a problem as experssion is called reccurence relation
+// when you write recursion in terms of formula or when we write a problem as experssion is called reccurence relation
 // febo(n) = febo(n-1) + febo(n-2) // this is known as reccurence relation
 
 // step 2:
