@@ -6,12 +6,13 @@
 > Asymptotic Notations are mathematical tools that allow you to analyze an algorithm’s running time by identifying its behavior as its input size grows.</br>
 > This is also known as an algorithm's growth rate.</br>
 > Description of how the algorithm scales with respect to input size,</br>
->###  There are mainly three asymptotic notations:
+
+###  There are mainly three asymptotic notations:
 >
         > Big-O Notation (O-notation) </br>
         > Omega Notation (Ω-notation)</br>
         > Theta Notation (Θ-notation)</br>
->#        
+>#       
 
 ### Why we need performance analysis:-
 > Performance is like currency through which we can buy - user-friendliness, modularity, security, maintainability, etc.
