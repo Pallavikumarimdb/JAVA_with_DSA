@@ -1,4 +1,4 @@
-package com.Pattern;
+package com._18_Pattern;
 
 // QUESTION
 //1

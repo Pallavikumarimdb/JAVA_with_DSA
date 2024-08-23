@@ -133,8 +133,114 @@ public class Main{
 ```
 
 >1. Scanner :- It is a class required to take input, it is present in java.util
-    package.
->2. input :- It is an object that we are creating to take input.
->3. new :- It is a keyword used to create an object in java.
->4. System.in :- System is a class and in is a variable that denotes we are
+    package.<br/>
+>2. input :- It is an object that we are creating to take input.<br/>
+>3. new :- It is a keyword used to create an object in java.<br/>
+>4. System.in :- System is a class and in is a variable that denotes we are<br/>
    taking input from standard input stream (i.e. Keyboard).
+
+
+
+### int Input :- 
+> nextInt() is a function used to take input of int.
+#### Syntax:-
+```java
+Scanner input = new Scanner(System.in);
+int rollno = input.nextInt();
+```
+
+### float Input :- 
+> nextFnt() is a function used to take input of int.
+#### Syntax:-
+```java 
+Scanner input = new Scanner(System.in);
+float marks = input.nextFloat();
+```
+
+### String Input :- 
+> Two ways to take string input <br/>
+> 1. Using next() Method :- It will take one word input till a space occurs<br/>
+####  Syntax:-
+   ```java 
+   Scanner input = new Scanner(System.in);
+   String s1 = input.next();
+   ``` 
+>   Input :- Hey Pallavi<br/>
+>   Output :- Hey<br/>
+>2. Using nextLine() Method :- It will take all string input including space.<br/>
+#### Syntax:-
+```java
+   Scanner input = new Scanner(System.in);
+   String s2 = input.nextLine();
+```
+
+### Sum of two numbers
+```java
+import java.util.Scanner;
+public class Sum { 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter first number");
+        int num1 = input.nextInt();
+        System.out.print("Enter second number");
+        int num2 = input.nextInt();
+        int sum = num1+num2;
+        System.out.println("Sum = "+sum);
+    }
+}
+```
+#### Output
+> Enter first number70<br/>
+Enter second number80<br/>
+Sum = 150<br/>
+
+
+## Type conversion
+>When one type of data is assigned to another type of variable an automatic
+type conversion will take place under some condition<br/>
+Conditions :-<br/>
+>1. Two types should be compatible.
+>2. Destination type should be greater then the source type.
+## Type Casting
+>When we convert one type of data to another type is known as type casting<br/>
+   Ex:- int num = (int) (67.564f)
+
+### Automatic type promotion in expressions.
+> While evaluating expressions the intermediate value may exceed the range of
+   operands and hence the expression value will be promoted.v
+#### There are some condition for type promotion:-
+>1. Java automatically promotes each byte, short or char operand to int
+   when evaluating an expression.
+>2. If one operand is a long , float or double the whole expression is
+   promoted to long , float or double respectively.
+   Ex:-
+
+``` java
+   byte a = 40;
+   byte b = 50;
+   byte c = 100;
+   int d = (a*b)/c;
+   System.out.println(d);
+   ```
+ >  Here when a*b occurred it became 2000 which is out of the range of byte
+   so here byte is automatically promoted to int type.
+#### Example for thorough review concept.
+```java
+   public class TypePromotion {
+    public static void main(String[] args) {
+       byte b = 42;
+       char c = 'a';
+       short s = 1024;
+       int i = 50000;
+       float f = 5.67f;
+       double d = 0.1234;
+       double result = (f*b)+(i/c)-(d*s);
+       System.out.println((f*b)+" "+(i/c)+" "+" "+(d*s));
+       System.out.println(result);
+    }
+
+}
+```
+>OUTPUT:<br/>
+238.14 515 126.3616<br/>
+626.7784146484375<br/>
