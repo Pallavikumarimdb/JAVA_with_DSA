@@ -200,7 +200,7 @@ Sum = 150<br/>
 type conversion will take place under some condition<br/>
 Conditions :-<br/>
 >1. Two types should be compatible.
->2. Destination type should be greater then the source type.
+>2. Destination type should be greater than the source type.
 ## Type Casting
 >When we convert one type of data to another type is known as type casting<br/>
    Ex:- int num = (int) (67.564f)
