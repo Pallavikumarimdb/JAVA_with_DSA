@@ -33,7 +33,11 @@ Example: n=new int[6];
 
 ![plot](img2.jpg)
 
+![plot](img3.jpg)
+
+![plot](img4.jpg)
 ### Note
+
 
 >1. Heap is the runtime data area from which the memory for all the classes instances is allocated.<br/>
 >2. Arrays in C and C++ use contiguous memory allocation in order that pointer arithmetic can be used to access the various elements.<br/>
@@ -46,9 +50,38 @@ Example: n=new int[6];
 >9. When we pass object reference, in actually going to take copy of that reference which is going to point to the same object.<br/>
 >10. Strings are immutable in java but Arrays are mutable in java.<br/>
 >11. Mutable means you can change the object.<br/>
+>12. Array objects are in heap.<br/>
+>13. Heap objects are not continuous.<br/>
+>14. It may be Dynamic memory allocation(DMA).<br/>
+>15. Hence:- may not be continuous ---> Depends on JVM.<br/>
+>16. Primitives (int, char, etc.) are stored in stack.<br/>
+>17. All other objects are stored in heap memory.<br/>
+>18. Arrays.toString(array) ---> internally uses for loop and gives the output in proper format.<br/>
+>19. In an array, since we can change the objects, hence they are mutable.<br/>
 
-> 
-> 2D : 42:00
 
+
+## 2D Arrays:
+
+A 2D array can be visualized as a matrix. Let's understand how?
+
+> First of all, let's take a 1D array like this,<br/>
+>   int[] num = {2, 5, 6, 9, 3};<br/>
+
+![plot](img5.jpg)
+
+![plot](img6.jpg)
+
+![plot](img7.jpg)
+
+![plot](img8.jpg)
+
+![plot](img9.jpg)
+
+![plot](img10.jpg)
+
+![plot](img11.jpg)
+
+![plot](img12.jpg)
 
   
