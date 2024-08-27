@@ -76,6 +76,8 @@ A 2D array can be visualized as a matrix. Let's understand how?
 
 ![plot](img8.jpg)
 
+## ArrayList
+
 ![plot](img9.jpg)
 
 ![plot](img10.jpg)
