@@ -1,6 +1,5 @@
-package com.Strings;
+package com._17_Strings;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Output {

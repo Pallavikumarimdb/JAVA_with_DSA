@@ -1,6 +1,4 @@
-package com.Strings;
-
-import org.w3c.dom.ls.LSOutput;
+package com._17_Strings;
 
 public class PrettyPrinting {
     public static void main(String[] args) {

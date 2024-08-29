@@ -1,4 +1,4 @@
-package com.Strings;
+package com._17_Strings;
 
 public class Main{
     public static void main(String[] args){
