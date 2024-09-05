@@ -35,4 +35,25 @@
 > String s1=new String("Pallavi");
 > String s2=new String("Pallavi");
 > // Creating these value outside the pool but inside the heap.
-> 
+
+
+
+### why use StringBuilder instead of Strings?
+>StringBuilder is a class in the Java API that provides a mutable sequence of characters.
+
+> Strings in Java are immutable. Meaning once you set their value you cannot change it. So what happens when add something to a string is that a new string object gets created and the old one gets thrown away. This can get expensive if you do it a lot. StringBuilder doesn't have this problem since it's mutable.
+
+
+#### There are many format specifiers we can use. Here are some common ones:
+
+%c - Character <br/>
+%d - Decimal number (base 10)<br/>
+%e - Exponential floating-point number<br/>
+%f - Floating-point number<br/>
+%i - Integer (base 10)<br/>
+%o - Octal number (base 8)<br/>
+%s - String<br/>
+%u - Unsigned decimal (integer) number<br/>
+%x - Hexadecimal number (base 16)<br/>
+%t - Date/time<br/>
+%n - Newline<br/>
