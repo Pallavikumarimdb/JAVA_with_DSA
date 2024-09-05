@@ -41,5 +41,6 @@ public class Output {
 //        It is raised in an application when we are trying to do some operation on null where an object is required.
 //        Some common reasons for NullPointerException in java programs are: Invoking a method on an object instance but at runtime the object is null.
 
+
     }
 }

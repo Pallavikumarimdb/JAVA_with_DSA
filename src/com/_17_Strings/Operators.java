@@ -12,6 +12,8 @@ public class Operators {
 
         System.out.println("Pallavi" + new ArrayList<>());
         System.out.println("Pallavi" + new Integer(56));
+        // '+' operators only works for primitives.
+        // operator overloading(can act in diff way than actual) only works for '+' in only one case.
         String ans = new Integer(56) + "" + new ArrayList<>();
         System.out.println(ans);
 
