@@ -1,4 +1,4 @@
-package com.BinarySearch;
+package com._10_BinarySearch;
 public class TwoSumIIInputArrayIsSorted{
     public static void main(String[] args) {
         int a[]={1,2,2,5};

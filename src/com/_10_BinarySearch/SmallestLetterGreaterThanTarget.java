@@ -1,6 +1,5 @@
-package com.BinarySearch;
+package com._10_BinarySearch;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class SmallestLetterGreaterThanTarget {

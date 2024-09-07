@@ -1,6 +1,4 @@
-package com.BinarySearch;
-import java.io.*;
-import java.util.*;
+package com._10_BinarySearch;
 
 public class InfiArray {
 

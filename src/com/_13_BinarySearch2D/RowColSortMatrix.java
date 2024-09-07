@@ -1,4 +1,4 @@
-package com.BinarySearch2D;
+package com._13_BinarySearch2D;
 
 import java.util.Scanner;
 
