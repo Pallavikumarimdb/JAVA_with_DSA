@@ -1,4 +1,4 @@
-package com.Recursion.Array;
+//package com.Recursion.Array;
 
 public class CheckArrayIsSorted {
 
