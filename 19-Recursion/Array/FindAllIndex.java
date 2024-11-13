@@ -53,7 +53,7 @@ public class FindAllIndex {
 
 
 //    ================================== APPROACH 3 =========================================
-
+//    https://youtu.be/sTdiMLom00U?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=3001
     public static ArrayList<Integer> findAllIndexes3(int[] arr, int index, int target ){
 
         ArrayList<Integer> list1 = new ArrayList<>();

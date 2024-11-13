@@ -3,7 +3,18 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/09-Linear_Search/Code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10-BinarySearch/Code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17-Strings/Code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19-Recursion/Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19-Recursion/Intro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19-Recursion/Level_1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19-Recursion/Subset, Subsequence, String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-Sorting/BubbleSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-Sorting/CyclicSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-Sorting/InsertionSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-Sorting/SelectionSort" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
