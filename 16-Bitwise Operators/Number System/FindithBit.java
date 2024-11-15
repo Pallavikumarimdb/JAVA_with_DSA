@@ -24,3 +24,5 @@ Hence: n & (1<<(n-1)) is ans
 
 public class FindithBit {
 }
+
+
