@@ -22,7 +22,20 @@ Use left shift: 1 << (n-1)
 Hence: n & (1<<(n-1)) is ans
  */
 
+import java.util.Scanner;
+
 public class FindithBit {
+    public static void main(String[] args) {
+        int n=5;  //n th digit
+        Scanner sc=new Scanner(System.in);
+        int value=sc.nextInt();
+//        int value=1235;
+        int mask=1<<(n-1);
+
+        int ans = (value & mask) == 0 ? 0 : 1;
+        System.out.println(ans);
+
+    }
 }
 
 
