@@ -16,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/13-Sorting/SelectionSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14-Strings/Code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/16-Bitwise Operators/Number System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/22-LinkedList/Single-Linked-List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/00-Random Question/Random-Interview-Question" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
