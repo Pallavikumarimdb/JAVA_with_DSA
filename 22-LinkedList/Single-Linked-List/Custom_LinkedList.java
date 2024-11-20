@@ -76,6 +76,18 @@ public class Custom_LinkedList {
         return val;
     }
 
+    public Node find(int value){
+        Node node=head;
+
+        while (node!=null){
+            if(node.value==value){
+                return node;
+            }
+            node=node.next;
+        }
+        return null;
+    }
+
     public Node get(int index){
         Node node=head;
         for (int i = 0; i < index; i++) {
