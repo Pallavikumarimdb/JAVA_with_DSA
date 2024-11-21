@@ -20,6 +20,8 @@
       <sourceFolder url="file://$MODULE_DIR$/00-Random Question/Random-Interview-Question" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/22-LinkedList/Circular-Linked-List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/22-LinkedList/Doubly-Linked-List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23-Stacks and Queues/Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23-Stacks and Queues/Stack" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
