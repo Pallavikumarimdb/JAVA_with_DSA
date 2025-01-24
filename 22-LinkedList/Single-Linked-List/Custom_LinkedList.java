@@ -1,15 +1,40 @@
 public class Custom_LinkedList {
 
-    private Node head;
 
     // What is the benefits of taking "tail" a extra variable?
     // It helps main the last node of list.
     // If you want to insert val to the last we can do in constant time.
+
+
+    /*
+    When Linked list will be initialized( Custom_LinkedList list=new Custom_LinkedList();)  there will be these property initialized
+
+    private Node head;
+    private Node tail;
+    private int size;
+    size=0;
+     */
+
+    private Node head;
     private Node tail;
     private int size;
 
     public Custom_LinkedList(){
         this.size=0;
+    }
+
+    private class Node{
+        private int value;
+        private Node next;
+
+        public Node(int value){
+            this.value=value;
+        }
+
+        public Node(int value, Node next){
+            this.value=value;
+            this.next=next;
+        }
     }
 
     public void insertFirst(int val) {
@@ -123,22 +148,5 @@ public class Custom_LinkedList {
 
 
     }
-
-
-    private class Node{
-        private int value; 
-        private Node next;
-
-        public Node(int value){
-            this.value=value;
-        }
-
-        public Node(int value, Node next){
-            this.value=value;
-            this.next=next;
-        }
-    }
-
-
 
 }
